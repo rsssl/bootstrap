@@ -1,0 +1,215 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Montserrat;
+}
+.header{
+    background-color: black;
+    height: 80px;
+    line-height: 79px;
+    display: flex;
+    justify-content: space-around;
+    background-color:#000000bb;
+    position: sticky;
+    top: 0;
+}
+ul{
+    display: flex;
+    gap: 40px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: #ffc451;
+    transition: 300ms;
+}
+.button1{
+    margin-top: 20px;
+    height: 40px;
+    width: 140px;
+    border-radius: 3px;
+    color: #fff;
+    border: 2px solid #ffc451;
+    background-color: transparent;
+    box-shadow: 1px 1px  #ffc451 ;
+    font-size: 14px;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: #ffc451;
+    color: black;
+    transition: 400ms;
+}
+section{
+    height:calc(100vh - 80px) ;
+    scroll-margin-top : 80px ;
+}
+.image{
+    background-image: url(hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.section-home{
+    color: white;
+    text-align: center;
+    padding-top: 7rem ;
+}
+.h3home{
+    color: rgba(219, 219, 219, 0.866);
+    font-size: 21px;
+}
+.section1-div{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 20px;
+}
+.section-home {
+    background-color:#000000bb;
+}
+.section-home h1{
+    font-size: 53px;
+}
+.divicon{
+    width: 190px;
+    height: 160px;
+    border: 1px solid rgb(66, 66, 66);
+    padding-top: 38px;
+    font-size: 18px;
+    color: rgb(207, 207, 207);
+}
+.divicon:hover{
+    border-color: #ffc451;
+    color: #ffc451;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.section-service{
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+/* section2 */
+.aboutdiv{
+    width: 90vh;
+    height:30vw;
+    padding: 0px;
+}
+.image-about{
+    width: 100vh;
+    height:30vw;
+    padding-right: 90px;
+}
+.section-about{
+    display: flex;
+    justify-content: space-around;
+    padding: 8% 6% ;
+
+}
+.div-about{
+    margin-left: 30px;
+    margin-right: 15px;
+}
+.ul-about li{
+    list-style-image: url(done.svg);
+    margin: 10px 20px;
+}
+.ul-about{
+    display: unset;
+}
+/* Section-Call */
+.section-call{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(cta-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px;
+    color: white;
+    margin: 150px 0 200px 0 ;
+}
+.section-call h1{
+    font-size: 30px;
+}
+.call-button{
+    margin-top: 20px;
+    height: 40px;
+    width: 140px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: transparent;
+    font-size: 14px;
+    cursor: pointer;
+    border: 2px solid #ffffff90;
+    box-shadow: 2px 2px 3px #ffffff96;
+}
+.call-button:hover{
+    color: black;
+    background-color: #ffc451;
+    border-color: #ffc451;
+    box-shadow: 2px 2px 1px #faaf1a5c ;
+    transition: 300ms;
+}
+/* Section3 */
+.section-service{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin: 20px 30px;
+}
+.div-service{
+    width: 380px;
+    height: 300px;
+    border: 1px solid #d8d8d8;
+    text-align: center;
+    padding: 50px 20px;
+}
+.svg{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+
+#div-service:hover{
+    transform: translateY(-13px);
+    transition: 500ms;
+    box-shadow: 5px 5px 8px #e0e0e0;
+    background-color: #ffc55122;
+    border-color: #c1c1c182;
+    cursor: pointer;
+}
+.section-service-div{
+    margin-left: 190px;
+    margin-right: 145px;
+    background-color: #f7f7f7;
+}
+.section-service-div h3{
+    color: #b1b1b1;
+    font-size: 15px;
+    padding-top: 36px;    
+}
+.h3service{
+    margin-left: 30px;
+    display: flex;
+    font-style: italic;
+}
+.h3service p{
+    margin-left: 10px;
+    color: #ffc451;
+    line-height: 8px;
+}
+.section-service-div h1{
+    margin-left: 20px;
+}
